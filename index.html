@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teodora Vojinović</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">TV<span>.dev</span></div>
+    <div class="nav-links">
+        <a href="#about">O meni</a>
+        <a href="#skills">Veštine</a>
+        <a href="#projects">Projekti</a>
+        <a href="#contact">Kontakt</a>
+    </div>
+    <a class="nav-cta" href="mailto:vojinovicteodora2711@gmail.com">Pišite mi</a>
+</nav>
+
+<header class="hero">
+    <div>
+        <div class="eyebrow">Kraljevo, Srbija</div>
+        <h1>Od sirovih podataka<br>do <span class="grad">sistema koji imaju smisla.</span></h1>
+        <p class="lead">Studentkinja informacionih tehnologija i bekend inženjerka koja voli da sredi haos u podacima i pretvori ga u nešto pouzdano. Diplomski rad spojio je SQL Server data warehouse sa Python ML modelom za predikciju rizika, a danas produbljujem veštine u data inženjeringu i bekend razvoju.</p>
+        <div class="hero-actions">
+            <a class="btn-primary" href="Teodora Vojinovic.pdf" target="_blank">Preuzmi CV ↓</a>
+            <a class="btn-ghost" href="https://github.com/Teodora-02" target="_blank">GitHub profil →</a>
+        </div>
+    </div>
+
+    <div class="pulse-wrap">
+        <div class="pulse-label">Signal</div>
+        <div class="pulse-sub">Šum → obrazac — tako izgleda svaki podatak pre nego što mu date strukturu</div>
+        <svg id="pulseSvg" viewBox="0 0 620 130" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#FFB6C1"/>
+                    <stop offset="50%" stop-color="#FF69B4"/>
+                    <stop offset="100%" stop-color="#FF1493"/>
+                </linearGradient>
+            </defs>
+            <path id="pulsePath" class="pulse-path" d=""/>
+        </svg>
+        <div class="pulse-footer">
+            <span>sirovi podaci</span>
+            <span>struktuirani sistem</span>
+        </div>
+    </div>
+</header>
+
+<div class="stats-row">
+    <div class="stat"><div class="stat-val">4.</div><div class="stat-label">godina IT studija, FTN Čačak</div></div>
+    <div class="stat"><div class="stat-val">3+</div><div class="stat-label">objavljena projekta na GitHub-u</div></div>
+    <div class="stat"><div class="stat-val">2</div><div class="stat-label">ML modela u diplomskom radu</div></div>
+    <div class="stat"><div class="stat-val">B2</div><div class="stat-label">nivo engleskog jezika</div></div>
+</div>
+
+<section class="section reveal" id="about">
+    <div class="section-head">
+        <div class="section-num">01 · O meni</div>
+        <h2 class="section-title">Sistematičan pristup, od baze do modela</h2>
+    </div>
+    <div class="about-grid">
+        <div class="about-text">
+            <p>Informacione tehnologije studiram na Fakultetu tehničkih nauka u Čačku, sa fokusom na bekend razvoj i rad sa podacima. Volim zadatke gde treba povezati relacionu bazu, čist kod i jasnu logiku u jednu celinu koja stvarno radi.</p>
+            <p>To sam primenila u diplomskom radu, gde sam gradila <strong>OLAP data warehouse u SQL Serveru</strong> i kombinovala ga sa <strong>Python modelima mašinskog učenja</strong> (Logistic Regression i Random Forest). Iskustvo u QA automatizaciji sa Inforce Academy internship-a dodatno mi je izoštrilo pažnju na detalje i testiranje pre isporuke.</p>
+            <p>Trenutno produbljujem cloud data engineering veštine kroz <strong>Databricks Data Engineer Associate</strong> program, tražeći prvu profesionalnu poziciju u ovoj oblasti.</p>
+        </div>
+        <div class="timeline">
+            <div class="tl-item">
+                <div class="tl-year">2026</div>
+                <div class="tl-title">Diplomski rad — analiza zdravstvenog rizika</div>
+                <div class="tl-desc">SSAS kocka, MDX upiti, Power BI izveštaji + scikit-learn model nad realnim skupom podataka.</div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-year">2026</div>
+                <div class="tl-title">QA Automation Engineer — Inforce Academy</div>
+                <div class="tl-desc">Java, Selenium, Cucumber i Jenkins u CI-stil radnom okruženju za automatizovano testiranje.</div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-year">u toku</div>
+                <div class="tl-title">Databricks Data Engineer Associate</div>
+                <div class="tl-desc">Sertifikacija iz cloud data inženjeringa, priprema za prelazak u data-fokusirane uloge.</div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-year">4. godina</div>
+                <div class="tl-title">Informacione tehnologije — FTN Čačak</div>
+                <div class="tl-desc">Fokus na bekend razvoj, baze podataka i osnove data inženjeringa kroz projektne i timske zadatke.</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section reveal" id="skills">
+    <div class="section-head">
+        <div class="section-num">02 · Veštine</div>
+        <h2 class="section-title">Alati kojima radim</h2>
+        <p class="section-desc">Podjednako komforna u bekend logici, relacionim bazama i osnovama data inženjeringa.</p>
+    </div>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <h4>Jezici</h4>
+            <div class="skill-tags"><span>C#</span><span>Python</span><span>SQL</span><span>Kotlin</span></div>
+        </div>
+        <div class="skill-card">
+            <h4>Bekend & Frameworks</h4>
+            <div class="skill-tags"><span>.NET Core</span><span>ASP.NET Core</span><span>Blazor</span><span>FastAPI</span><span>REST API</span></div>
+        </div>
+        <div class="skill-card">
+            <h4>Podaci & Baze</h4>
+            <div class="skill-tags"><span>SQL Server</span><span>Oracle SQL</span><span>SSAS / OLAP</span><span>ETL</span><span>Power BI</span></div>
+        </div>
+    </div>
+</section>
+
+<section class="section reveal" id="projects">
+    <div class="section-head">
+        <div class="section-num">03 · Projekti</div>
+        <h2 class="section-title">Šta sam gradila</h2>
+        <p class="section-desc">Izabrani projekti sa GitHub profila i diplomskog rada.</p>
+    </div>
+    <div class="projects-grid">
+        <div class="project-card">
+            <div class="project-tag">Full-stack</div>
+            <h3>PetShop System</h3>
+            <p>Kompletna veb aplikacija razvijena u timu — bekend logika, UI komponente i integracija baze podataka, sa optimizovanim šemama i upitima u SQL Serveru i Oracle SQL-u.</p>
+            <div class="project-stack"><span>C#</span><span>ASP.NET Core</span><span>Blazor</span><span>SQL Server</span></div>
+            <a class="project-link" href="https://github.com/Teodora-02/PeShopSystem" target="_blank">Pogledaj repo →</a>
+        </div>
+        <div class="project-card">
+            <div class="project-tag">REST API</div>
+            <h3>Bookshelf API</h3>
+            <p>Individualni projekat — REST API sa punim CRUD operacijama za knjige, autore i kategorije, dizajniran po principima normalizovane relacione baze.</p>
+            <div class="project-stack"><span>C#</span><span>SQL</span><span>REST</span></div>
+            <a class="project-link" href="https://github.com/Teodora-02/Bookshelf-api" target="_blank">Pogledaj repo →</a>
+        </div>
+        <div class="project-card">
+            <div class="project-tag">QA Automation</div>
+            <h3>Testiranje — projekat</h3>
+            <p>Projekat sa Inforce Academy internship-a: automatizovani test slučajevi i CI-stil radni tok za hvatanje regresija pre izdavanja.</p>
+            <div class="project-stack"><span>Java</span><span>Selenium</span><span>Cucumber</span><span>Jenkins</span></div>
+            <a class="project-link" href="https://github.com/Teodora-02/Testiranje-projekat" target="_blank">Pogledaj repo →</a>
+        </div>
+        <div class="project-card">
+            <div class="project-tag">Data Warehouse + ML</div>
+            <h3>Analiza zdravstvenog rizika</h3>
+            <p>Diplomski rad: OLAP data warehouse (zvezdasta šema, SSAS kocka, MDX) uz Python ML poređenje Logistic Regression i Random Forest modela nad realnim skupom podataka.</p>
+            <div class="project-stack"><span>SQL Server</span><span>SSAS</span><span>Python</span><span>scikit-learn</span></div>
+        </div>
+        <div class="project-card">
+            <div class="project-tag">Data viz</div>
+            <h3>Solarna elektrana — vizuelizacija</h3>
+            <p>Interaktivni dashboard za analizu proizvodnje solarne elektrane od 90 kW — poređenje snage sistema i solarnog zračenja kroz SAM simulacione podatke.</p>
+            <div class="project-stack"><span>JavaScript</span><span>Chart.js</span><span>HTML/CSS</span></div>
+        </div>
+        <div class="project-card">
+            <div class="project-tag">IoT</div>
+            <h3>Sistem orijentacije za pozorište</h3>
+            <p>Patentna prijava za IoT sistem sa 13 komponenti — arhitektura razvijena kroz više iteracija u skladu sa tehničkim zahtevima.</p>
+            <div class="project-stack"><span>IoT</span><span>Sistemska arhitektura</span></div>
+        </div>
+    </div>
+</section>
+
+<section class="section reveal" id="contact">
+    <div class="contact-box">
+        <h2>Tražim prvu profesionalnu poziciju.</h2>
+        <p>Otvorena sam za pozicije u data inženjeringu, data analitici i .NET/QA automatizaciji.</p>
+        <div class="contact-links">
+            <a class="btn-primary" href="mailto:vojinovicteodora2711@gmail.com">✉ vojinovicteodora2711@gmail.com</a>
+            <a class="btn-ghost" href="tel:+381605887229">☎ +381 60 588 7229</a>
+            <a class="btn-ghost" href="https://github.com/Teodora-02" target="_blank">GitHub</a>
+        </div>
+    </div>
+</section>
+
+<footer>Teodora Vojinović · Portfolio · Kraljevo, Srbija · 2026</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
